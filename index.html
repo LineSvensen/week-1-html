@@ -4,14 +4,14 @@
 
 <head>
 
-    <title>::: Day 1 HTML :::</title>
+    <title>::: Day 1 HTML |  :::</title>
     <meta charset="UTF-8"/>
     <meta name="description" content="The homepage of the best website ever"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta property="og:title" content="Best website in the world"/>
-    <meta property="og:url" content="https://www.example.com"
-    <meta property="og:type" content="article/>"
-    <meta property="og:image" content="http://www.example.com/some-image.png"
+    <meta property="og:url" content="https://www.example.com"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:image" content="http://www.example.com/some-image.png"/>
 
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png"/>
     <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon.ico"/>
@@ -24,35 +24,75 @@
     <header>
         <!-- the header contains the logo, navigation links etc.-->
         <nav>
-            this is my header
+            <a href=".">Guitar Kings</a>
+            <ul>
+                <li><a href=".">Home</a></li>
+                <li><a href="guitars.html">Guitars</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
             <!--navigation links, logo, search -->
         </nav>
     </header>
 
     <main>
         <!--article: articles, images, paragraph, heading -->
-        <article>
-            <h1>Title of the article</h1>
-            <p>content of the article</p>
-        </article>
-
         <section>
-            <!--content block or ads or some comment-->
-            <h2>subheading</h2>
-            <p>some content</p>
+            <h1>Authentic handmade guitars</h1>
+            <a href="/guitars.html">View guitars</a>
         </section>
 
+        <hr/>
+
+        <section>
+            <div>
+            <h2>Our <br>guitars<br> are:</h2>
+            <ul>
+            <li>Made with real pennsylvanian wood</li>
+            <li>Crafted by a family-run business</li>
+            <li>Built to last a lifetime</li>
+            <li>Beautiful unique sound</li>
+            <li>Options for all music lovers</li>
+            </ul>
+            </div>
+            <p>Hands strumming guitar</p>
+            <img src="assets/product-specific.jpg" alt="strumming guitar"/>
+        </section>
+
+
+        <article>
+            <h2>
+                Reviews
+            </h2>
+            <div>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis dictum elit. In hac habitasse platea dictumst." - Bob Willis</p>
+                <img src="assets/review-bio.jpg" alt="review-bio.jpg"/>
+            </div>
+            <div>
+                <p>"Maecenas interdum, erat nec pulvinar euismod, eros erat ornare mauris, commodo vestibulum odio nunc id urna. Sed volutpat consequat dolor, nec sollicitudin elit eleifend vitae." - Sally Oldfield</p>
+                <img src="assets/review-bio2.jpg" alt="Profile picture of Bob Willis"/>
+            </div>
+        </article>
+
+        <div>
+            <h2>View our guitars</h2>
+                <img src="assets/product.jpg" alt="product.jpg"/>
+                <br>
+                <p><b>Adironfack Red</b></p>
+            <p>$500</p>
+            <a href="/guitars.html">View</a>
+        </div>
+
+        <br>
+
+        <div>
+            <img src="assets/product.jpg" alt="product.jpg"/>
+            <br>
+            <p><b>Adironfack Red</b></p>
+        <p>$500</p>
+        <a href="">View</a>
+        </div>
+
     </main>
-
-    <aside>
-        this is my aside
-        <!--on the side of the page. ads, image etc-->
-    </aside>
-
-    <footer>
-        this is my footer
-        <!--footer contains copyrights, info, links, sitemap, etc-->
-    </footer>
 
 </body>
 
